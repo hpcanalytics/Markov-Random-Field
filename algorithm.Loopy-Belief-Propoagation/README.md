@@ -1,4 +1,5 @@
-# Markov-Random-Field
-[Loopy Belief Propagation](https://github.com/hpcanalytics/Markov-Random-Field/tree/algorithm.loopy-belief-propagation) for approximate optimization of Markov Random Field models  
-[Tree Reweighted Message Passing (TRW-S)](https://github.com/hpcanalytics/Markov-Random-Field/tree/algorithm.trw-s) for approximate optimization of Markov Random Field models  
-Gibbs Sampling for approximate inference on Markov Random Field models  
+# Loopy Belief Propagation
+Belief propagation is a message-passing algorithm for performing inference on graphical models such as [Markov random fields](https://github.com/hpcanalytics/Markov-Random-Field).It calculates the marginal distribution for each unobserved node, conditional on any observed nodes.  
+# Exemplar application
+[Project:3D reconstruction of tourist attractions from social media images](http://vision.soic.indiana.edu/projects/disco/) is one case of using belef propagation to solve a real problem.
+![Exemplar application](https://github.com/hpcanalytics/Markov-Random-Field/blob/master/resource/TRW.png)
